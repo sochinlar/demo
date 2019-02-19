@@ -103,6 +103,7 @@
                         <imageTag>${imageTag}</imageTag>
                         <imageTag>latest</imageTag>
                     </imageTags>
+                    <dockerHost>docker.io</dockerHost>
 <!--                    <baseImage>anapsix/alpine-java:8_server-jre_unlimited</baseImage>
                     <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>-->
                     <dockerDirectory>${project.basedir}</dockerDirectory>
