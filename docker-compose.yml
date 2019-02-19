@@ -1,21 +1,21 @@
 version: '2'
 services:
-  mysql:
-    build:
-      context: ./
-      dockerfile: ./Dockerfile
+  demo:
+    #build:
+      #context: ./
+      #dockerfile: ./Dockerfile
     restart: always
-    container_name: restapi
-    image: restapi
+    container_name: demo
+    image: sochinlar/demo:0.1
     ports:
       - 8081:8081
     networks:
       mysql:
         aliases:
-          - restapi
+          - demo
       webservice:
         aliases:
-          - restapi
+          - demo
 
   nginx:
     restart: always
