@@ -1,0 +1,21 @@
+version: '2'
+services:
+  mysql:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    restart: always
+    container_name: restapi
+    image: restapi
+    ports:
+      - 8081:8081
+    networks:
+      mysql:
+        aliases:
+          - restapi
+      webservice:
+        aliases:
+          - restapi
+networks:
+  mysql:
+  webservice:
