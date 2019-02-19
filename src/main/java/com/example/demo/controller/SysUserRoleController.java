@@ -29,7 +29,7 @@ public class SysUserRoleController {
 
     @RequestMapping("/")
     public Object test(){
-        return "welcome to test!";
+        return "welcome to test!hahah";
     }
 
 }
