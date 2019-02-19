@@ -6,7 +6,7 @@ services:
       #dockerfile: ./Dockerfile
     restart: always
     container_name: demo
-    image: sochinlar/demo:0.1
+    image: docker.io/sochinlar/demo
     ports:
       - 8081:8081
     networks:
