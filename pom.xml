@@ -81,7 +81,7 @@
                 </executions>
                 <configuration>
                     <!--<imageName>sochinlar/demo:0.1</imageName>-->
-                    <imageName>docker.io/sochinlar/demo</imageName>
+                    <imageName>sochinlar/demo</imageName>
                     <imageTags>
                         <imageTag>0.2</imageTag>
                         <imageTag>latest</imageTag>
