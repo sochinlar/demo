@@ -7,7 +7,7 @@ services:
     restart: always
     container_name: demo
     #与xml中配置保持一致！！
-    image: sochinlar/demo:0.3
+    image: sochinlar/demo
     ports:
       - 8081:8081
     networks:
