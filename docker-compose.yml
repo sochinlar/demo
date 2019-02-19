@@ -6,7 +6,8 @@ services:
       #dockerfile: ./Dockerfile
     restart: always
     container_name: demo
-    image: sochinlar/demo
+    #与xml中配置保持一致！！
+    image: sochinlar/demo:0.3
     ports:
       - 8081:8081
     networks:
